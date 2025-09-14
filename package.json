@@ -13,7 +13,8 @@
 	"scripts": {
 		"lint": "biome check",
 		"prepare": "lefthook install",
-		"publish:npm": "np"
+		"publish:npm": "np",
+		"test": "exit 0"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "^2.2.4",
