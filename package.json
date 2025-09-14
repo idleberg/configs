@@ -7,8 +7,14 @@
 	"exports": {
 		"./biome": "./biome.jsonc"
 	},
+	"scripts": {
+		"lint": "biome check",
+		"prepare": "lefthook install"
+	},
 	"devDependencies": {
 		"@biomejs/biome": "^2.2.4",
+		"@commitlint/cli": "^19.8.1",
+		"@commitlint/config-conventional": "^19.8.1",
 		"lefthook": "^1.13.0",
 		"np": "^10.2.0"
 	},
