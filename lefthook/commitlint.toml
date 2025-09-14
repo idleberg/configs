@@ -1,2 +1,5 @@
+# Why TOML?
+# See https://ruudvanasseldonk.com/2023/01/11/the-yaml-document-from-hell
+
 [commit-msg.commands.commitlint]
 run = "pnpm exec commitlint --edit $1"
