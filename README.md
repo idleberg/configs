@@ -17,5 +17,6 @@ A collection of configuration files for my own projects.
 ```toml
 [[remotes]]
 git_url = "https://github.com/idleberg/configs"
+ref = "main"
 configs = [ "lefthook/biome.toml", "lefthook/commitlint.toml" ]
 ```
