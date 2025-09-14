@@ -1,0 +1,12 @@
+# Package Managers
+node_modules/
+deno.lock
+package-lock.json
+yarn.lock
+
+# Build
+dist/
+
+# Test
+coverage/
+test-results/

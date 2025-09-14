@@ -1,0 +1,9 @@
+[pre-commit.commands.biome]
+run = """
+pnpm exec biome check \\
+  --fix \\
+  --no-errors-on-unmatched \\
+  --reporter=summary \\
+  --staged
+"""
+stage_fixed = true
