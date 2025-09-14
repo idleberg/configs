@@ -7,6 +7,9 @@
 	"exports": {
 		"./biome": "./biome.jsonc"
 	},
+	"files": [
+		"biome.jsonc"
+	],
 	"scripts": {
 		"lint": "biome check",
 		"prepare": "lefthook install",
