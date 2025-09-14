@@ -1,7 +1,8 @@
 # @idleberg/configs
 
 [![License](https://img.shields.io/github/license/idleberg/configs?color=blue&style=for-the-badge)](https://github.com/idleberg/configs/blob/main/LICENSE)
-[![Version: npm](https://img.shields.io/npm/v/@idleberg/configs?style=for-the-badge)](https://www.npmjs.org/package/@idleberg/configs)
+[![Version](https://img.shields.io/npm/v/@idleberg/configs?style=for-the-badge)](https://www.npmjs.org/package/@idleberg/configs)
+[![CI](https://img.shields.io/github/actions/workflow/status/idleberg/configs/ci.yml?logo=nodedotjs&logoColor=white&style=for-the-badge)](https://github.com/idleberg/configs/actions/workflows/ci.yml)
 
 A collection of configuration files for my own projects.
 
