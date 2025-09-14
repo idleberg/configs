@@ -1,6 +1,6 @@
 {
 	"name": "@idleberg/configs",
-	"version": "0.0.0",
+	"version": "0.1.0",
 	"description": "A collection of configuration files for my own projects",
 	"license": "MIT",
 	"type": "module",
