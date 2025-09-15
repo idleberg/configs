@@ -63,10 +63,10 @@
           export VISUAL=$(which code)
 
           echo "Setting up shell aliases..."
-          alias ..='cd ..'
+          alias ..="cd .."
           alias cat=bat
-          alias ls=eza -lh --group-directories-first --icons=auto
-          alias ll=ls -la
+          alias ls="eza -lh --group-directories-first --icons=auto"
+          alias ll="ls -la"
           alias vim=nvim
 
           if git rev-parse --is-inside-work-tree > /dev/null 2>&1; then
