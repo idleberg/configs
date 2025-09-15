@@ -33,12 +33,7 @@ To add the Nix flake to an existing project, run the following command:
 nix flake init --template "github:idleberg/configs"
 ```
 
-```toml
-[[remotes]]
-git_url = "https://github.com/idleberg/configs"
-ref = "main"
-configs = [ "lefthook/biome.toml", "lefthook/commitlint.toml" ]
-```
+To launch the development shell, run `nix develop`.
 
 ### tsc
 
