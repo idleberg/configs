@@ -9,7 +9,8 @@
 		"./tsconfig": "./tsconfig.json"
 	},
 	"files": [
-		"biome.jsonc"
+		"biome.jsonc",
+		"tsconfig.json"
 	],
 	"scripts": {
 		"lint": "biome check",
