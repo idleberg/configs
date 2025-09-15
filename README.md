@@ -24,3 +24,11 @@ git_url = "https://github.com/idleberg/configs"
 ref = "main"
 configs = [ "lefthook/biome.toml", "lefthook/commitlint.toml" ]
 ```
+
+### TypeScript
+
+```json
+{
+	"extends": "@idleberg/configs/tsconfig"
+}
+```

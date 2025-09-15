@@ -7,19 +7,23 @@ settings:
 importers:
 
   .:
-    devDependencies:
+    dependencies:
       '@biomejs/biome':
         specifier: ^2.2.4
         version: 2.2.4
+      '@total-typescript/tsconfig':
+        specifier: ^1.0.4
+        version: 1.0.4
+      lefthook:
+        specifier: ^1.13.0
+        version: 1.13.0
+    devDependencies:
       '@commitlint/cli':
         specifier: ^19.8.1
         version: 19.8.1(@types/node@24.4.0)(typescript@5.9.2)
       '@commitlint/config-conventional':
         specifier: ^19.8.1
         version: 19.8.1
-      lefthook:
-        specifier: ^1.13.0
-        version: 1.13.0
       np:
         specifier: ^10.2.0
         version: 10.2.0(@types/node@24.4.0)(typescript@5.9.2)
@@ -329,6 +333,9 @@ packages:
   '@sindresorhus/merge-streams@2.3.0':
     resolution: {integrity: sha512-LtoMMhxAlorcGhmFYI+LhPgbPZCkgP6ra1YL604EeF6U98pLlQ3iWIGMdWSC+vWmPBWBNgmDBAhnAobLROJmwg==}
     engines: {node: '>=18'}
+
+  '@total-typescript/tsconfig@1.0.4':
+    resolution: {integrity: sha512-fO4ctMPGz1kOFOQ4RCPBRBfMy3gDn+pegUfrGyUFRMv/Rd0ZM3/SHH3hFCYG4u6bPLG8OlmOGcBLDexvyr3A5w==}
 
   '@types/conventional-commits-parser@5.0.1':
     resolution: {integrity: sha512-7uz5EHdzz2TqoMfV7ee61Egf5y6NkcO4FB/1iCCQnbeiI1F3xzv3vK5dBCXUCLQgGYS+mUeigK1iKQzvED+QnQ==}
@@ -1943,6 +1950,8 @@ snapshots:
       - zenObservable
 
   '@sindresorhus/merge-streams@2.3.0': {}
+
+  '@total-typescript/tsconfig@1.0.4': {}
 
   '@types/conventional-commits-parser@5.0.1':
     dependencies:

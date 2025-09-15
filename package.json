@@ -5,7 +5,8 @@
 	"license": "MIT",
 	"type": "module",
 	"exports": {
-		"./biome": "./biome.jsonc"
+		"./biome": "./biome.jsonc",
+		"./tsconfig": "./tsconfig.json"
 	},
 	"files": [
 		"biome.jsonc"
@@ -16,16 +17,15 @@
 		"publish:npm": "np",
 		"test": "exit 0"
 	},
-	"devDependencies": {
+	"dependencies": {
 		"@biomejs/biome": "^2.2.4",
+		"@total-typescript/tsconfig": "^1.0.4",
+		"lefthook": "^1.13.0"
+	},
+	"devDependencies": {
 		"@commitlint/cli": "^19.8.1",
 		"@commitlint/config-conventional": "^19.8.1",
-		"lefthook": "^1.13.0",
 		"np": "^10.2.0"
-	},
-	"peerDependencies": {
-		"@biomejs/biome": "^2.2.4",
-		"lefthook": "^1.13.0"
 	},
 	"packageManager": "pnpm@10.16.1+sha512.0e155aa2629db8672b49e8475da6226aa4bdea85fdcdfdc15350874946d4f3c91faaf64cbdc4a5d1ab8002f473d5c3fcedcd197989cf0390f9badd3c04678706"
 }

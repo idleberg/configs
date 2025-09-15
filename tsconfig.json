@@ -1,0 +1,10 @@
+{
+	"extends": "@total-typescript/tsconfig/bundler/no-dom/library",
+	"compilerOptions": {
+		"allowImportingTsExtensions": true,
+		"checkJs": true,
+		"module": "NodeNext",
+		"moduleResolution": "NodeNext",
+		"noEmit": true
+	}
+}
