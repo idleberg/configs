@@ -20,5 +20,9 @@ block_comment_end = */
 [*.{markdown,md}]
 trim_trailing_whitespace = false
 
+
+[*.nix]
+indent_style = space
+
 [package.json]
 insert_final_newline = true

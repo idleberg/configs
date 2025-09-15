@@ -29,6 +29,6 @@ configs = [ "lefthook/biome.toml", "lefthook/commitlint.toml" ]
 
 ```json
 {
-	"extends": "@idleberg/configs/tsconfig"
+	"extends": "@idleberg/configs/tsc"
 }
 ```

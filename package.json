@@ -6,7 +6,7 @@
 	"type": "module",
 	"exports": {
 		"./biome": "./biome.jsonc",
-		"./tsconfig": "./tsconfig.json"
+		"./tsc": "./tsconfig.json"
 	},
 	"files": [
 		"biome.jsonc",
