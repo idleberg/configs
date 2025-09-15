@@ -8,7 +8,7 @@ A collection of configuration files for my own projects.
 
 ## Configurations
 
-### Biome
+### biome
 
 ```jsonc
 {
@@ -16,7 +16,7 @@ A collection of configuration files for my own projects.
 }
 ```
 
-### Lefthook
+### lefthook
 
 ```toml
 [[remotes]]
@@ -25,7 +25,22 @@ ref = "main"
 configs = [ "lefthook/biome.toml", "lefthook/commitlint.toml" ]
 ```
 
-### TypeScript
+### nix
+
+To add the Nix flake to an existing project, run the following command:
+
+```sh
+nix flake init --template "github:idleberg/configs"
+```
+
+```toml
+[[remotes]]
+git_url = "https://github.com/idleberg/configs"
+ref = "main"
+configs = [ "lefthook/biome.toml", "lefthook/commitlint.toml" ]
+```
+
+### tsc
 
 ```json
 {
