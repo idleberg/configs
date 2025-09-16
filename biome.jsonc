@@ -71,6 +71,7 @@
 	},
 	"javascript": {
 		"formatter": {
+			"lineEnding": "lf",
 			"lineWidth": 120,
 			"quoteStyle": "single"
 		}
