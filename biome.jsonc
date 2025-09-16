@@ -67,11 +67,11 @@
 	 * @see {@link https://biomejs.dev/formatter/}
 	 */
 	"formatter": {
+		"lineEnding": "lf",
 		"useEditorconfig": true
 	},
 	"javascript": {
 		"formatter": {
-			"lineEnding": "lf",
 			"lineWidth": 120,
 			"quoteStyle": "single"
 		}
