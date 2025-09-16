@@ -16,6 +16,8 @@ A collection of configuration files for my own projects.
 }
 ```
 
+Requires `public-hoist-pattern[]=*@biomejs/biome*` in your `.npmrc` file.
+
 ### lefthook
 
 ```toml
@@ -24,6 +26,8 @@ git_url = "https://github.com/idleberg/configs"
 ref = "main"
 configs = [ "lefthook/biome.toml", "lefthook/commitlint.toml" ]
 ```
+
+Requires `public-hoist-pattern[]=*lefthook*` in your `.npmrc` file.
 
 ### nix
 
