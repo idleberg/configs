@@ -3,6 +3,11 @@
 	"version": "0.3.1",
 	"description": "A collection of configuration files for my own projects",
 	"license": "MIT",
+	"author": "Jan T. Sott",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/idleberg/configs.git"
+	},
 	"type": "module",
 	"exports": {
 		"./biome": "./biome.jsonc",
