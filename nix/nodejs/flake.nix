@@ -19,6 +19,7 @@
         packages = with pkgs; [
           # Development Tools
           corepack
+          bun
           docker
           git
           git-lfs
