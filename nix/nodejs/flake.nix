@@ -49,13 +49,17 @@
           zq
 
           # Shell Dependencies
-          alejandra
           direnv
           gum
           macchina
           which
+
+          # Other
+          alejandra
+          nixfmt
         ];
         shellHook = ''
+          clean
           macchina
 
           echo "Setting up environment variables..."
