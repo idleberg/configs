@@ -6,7 +6,7 @@
   } @ inputs: {
     templates = {
       default = {
-        path = ./nix/nodejs;
+        path = ./nix/typescript;
       };
     };
   };
