@@ -47,7 +47,7 @@
           openvpn
           tealdeer
           wget
-          zq
+          zed
 
           # Shell Dependencies
           direnv
