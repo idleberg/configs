@@ -60,7 +60,7 @@
           nixfmt
         ];
         shellHook = ''
-          clean
+          clear
           macchina
 
           echo "Setting up environment variables..."
