@@ -1,11 +1,9 @@
 {
+  description = "Ready-made templates for easily creating flake-driven environments";
+
   inputs.nixpkgs.url = "https://flakehub.com/f/NixOS/nixpkgs/0.1";
 
-  outputs = {
-    self,
-    # nixpkgs,
-    ...
-  } @ inputs: let
+  outputs = {self, ...} @ inputs: let
     supportedSystems = [
       "x86_64-linux"
       "aarch64-linux"
@@ -20,17 +18,27 @@
             pkgs = import inputs.nixpkgs {inherit system;};
           }
       );
-  in {
-    devShells = forEachSupportedSystem ({pkgs, ...}: {
-      default = pkgs.mkShellNoCC {
-        packages = with pkgs; [];
-      };
-    });
-
-    templates = {
-      default = {
-        path = ./nix/typescript;
+  in
+    {
+      packages = forEachSupportedSystem (
+        {pkgs, ...}: rec {
+          default = devenv;
+          devenv = pkgs.writeShellApplication {
+            name = "development-environment";
+            bashOptions = [
+              "errexit"
+              "pipefail"
+            ];
+            text = "echo 'Creating development environment...'";
+          };
+        }
+      );
+    }
+    // {
+      templates = rec {
+        default = {
+          path = ./nix/typescript;
+        };
       };
     };
-  };
 }
