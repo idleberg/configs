@@ -23,7 +23,7 @@
 		"lint:biome": "biome check",
 		"lint:e18e": "e18e-cli analyze",
 		"prepare": "lefthook install",
-		"publish:npm": "np",
+		"publish:npm": "np --no-release-draft",
 		"test": "exit 0"
 	},
 	"dependencies": {
