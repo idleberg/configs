@@ -6,7 +6,7 @@ settings:
 
 dependencies:
   '@biomejs/biome':
-    specifier: ^2.2.4
+    specifier: ^2.3.4
     version: 2.3.4
   '@total-typescript/tsconfig':
     specifier: ^1.0.4
