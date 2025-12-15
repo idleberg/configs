@@ -27,14 +27,14 @@
 		"test": "exit 0"
 	},
 	"dependencies": {
-		"@biomejs/biome": "^2.3.4",
+		"@biomejs/biome": "^2.3.9",
 		"@e18e/cli": "^0.3.1",
 		"@total-typescript/tsconfig": "^1.0.4",
-		"lefthook": "^2.0.3"
+		"lefthook": "^2.0.12"
 	},
 	"devDependencies": {
-		"@commitlint/cli": "^20.1.0",
-		"@commitlint/config-conventional": "^20.0.0",
+		"@commitlint/cli": "^20.2.0",
+		"@commitlint/config-conventional": "^20.2.0",
 		"concurrently": "^9.2.1",
 		"np": "^10.2.0"
 	},
