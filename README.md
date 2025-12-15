@@ -24,7 +24,11 @@ Requires `public-hoist-pattern[]=*@biomejs/biome*` in your `.npmrc` file.
 [[remotes]]
 git_url = "https://github.com/idleberg/configs"
 ref = "main"
-configs = [ "lefthook/biome.toml", "lefthook/commitlint.toml" ]
+configs = [
+	"lefthook/biome.toml",
+	"lefthook/commitlint.toml",
+	"lefthook/e18e.toml"
+]
 ```
 
 Requires `public-hoist-pattern[]=*lefthook*` in your `.npmrc` file.

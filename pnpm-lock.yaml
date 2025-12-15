@@ -11,6 +11,9 @@ importers:
       '@biomejs/biome':
         specifier: ^2.3.4
         version: 2.3.4
+      '@e18e/cli':
+        specifier: ^0.3.1
+        version: 0.3.1(picomatch@4.0.3)
       '@total-typescript/tsconfig':
         specifier: ^1.0.4
         version: 1.0.4
@@ -24,9 +27,6 @@ importers:
       '@commitlint/config-conventional':
         specifier: ^20.0.0
         version: 20.0.0
-      '@e18e/cli':
-        specifier: ^0.3.1
-        version: 0.3.1(picomatch@4.0.3)
       concurrently:
         specifier: ^9.2.1
         version: 9.2.1
