@@ -31,7 +31,14 @@ configs = [
 ]
 ```
 
-Requires `public-hoist-pattern[]=*lefthook*` in your `.npmrc` file.
+This requires `public-hoist-pattern` for some dependencies enabled in the `.npmrc` file:
+
+```rc
+public-hoist-pattern[]=*@biomejs/biome*
+public-hoist-pattern[]=*@e18e/cli*
+public-hoist-pattern[]=*@total-typescript/tsconfig*
+public-hoist-pattern[]=*lefthook*
+```
 
 ### nix
 
