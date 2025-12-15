@@ -1,4 +1,5 @@
-# https://ruudvanasseldonk.com/2023/01/11/the-yaml-document-from-hell
+# Why TOML?
+# See https://ruudvanasseldonk.com/2023/01/11/the-yaml-document-from-hell
 
 [pre-commit.commands.biome]
 run = """
