@@ -2,4 +2,5 @@
 # See https://ruudvanasseldonk.com/2023/01/11/the-yaml-document-from-hell
 
 [pre-push.commands.e18e]
+glob = "{bun.lock,package-lock.json,pnpm-lock.yaml,yarn.lock}"
 run = "pnpm exec e18e-cli analyze"
