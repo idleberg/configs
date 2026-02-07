@@ -27,16 +27,16 @@
 		"test": "exit 0"
 	},
 	"dependencies": {
-		"@biomejs/biome": "^2.3.9",
+		"@biomejs/biome": "^2.3.14",
 		"@e18e/cli": "^0.3.1",
 		"@total-typescript/tsconfig": "^1.0.4",
-		"lefthook": "^2.0.12"
+		"lefthook": "^2.1.0"
 	},
 	"devDependencies": {
-		"@commitlint/cli": "^20.2.0",
-		"@commitlint/config-conventional": "^20.2.0",
+		"@commitlint/cli": "^20.4.1",
+		"@commitlint/config-conventional": "^20.4.1",
 		"concurrently": "^9.2.1",
-		"np": "^10.2.0"
+		"np": "^11.0.2"
 	},
 	"packageManager": "pnpm@10.21.0+sha512.da3337267e400fdd3d479a6c68079ac6db01d8ca4f67572083e722775a796788a7a9956613749e000fac20d424b594f7a791a5f4e2e13581c5ef947f26968a40"
 }
