@@ -23,7 +23,7 @@ Requires `public-hoist-pattern[]=*@biomejs/biome*` in your `.npmrc` file.
 ```toml
 [[remotes]]
 git_url = "https://github.com/idleberg/configs"
-ref = "main"
+ref = "v0.4.2"
 configs = [
 	"lefthook/biome.toml",
 	"lefthook/commitlint.toml",
