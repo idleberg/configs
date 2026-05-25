@@ -3,4 +3,4 @@
 
 [pre-push.commands.e18e]
 glob = "{bun.lock,package-lock.json,pnpm-lock.yaml,yarn.lock}"
-run = "pnpm exec e18e-cli analyze"
+run = "pnpm exec e18e-cli analyze --log-level error"
