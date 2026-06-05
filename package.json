@@ -26,15 +26,15 @@
 		"test": "exit 0"
 	},
 	"dependencies": {
-		"@biomejs/biome": "^2.4.15",
-		"@e18e/cli": "^0.6.1",
+		"@biomejs/biome": "^2.4.16",
+		"@e18e/cli": "^0.7.0",
 		"@total-typescript/tsconfig": "^1.0.4",
-		"lefthook": "^2.1.8"
+		"lefthook": "^2.1.9"
 	},
 	"devDependencies": {
-		"@commitlint/cli": "^21.0.1",
-		"@commitlint/config-conventional": "^21.0.1",
-		"concurrently": "^9.2.1",
+		"@commitlint/cli": "^21.0.2",
+		"@commitlint/config-conventional": "^21.0.2",
+		"concurrently": "^10.0.3",
 		"np": "^11.2.1"
 	},
 	"pnpm": {
