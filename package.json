@@ -37,10 +37,5 @@
 		"concurrently": "^10.0.3",
 		"np": "^11.2.1"
 	},
-	"pnpm": {
-		"onlyBuiltDependencies": [
-			"lefthook"
-		]
-	},
-	"packageManager": "pnpm@10.21.0+sha512.da3337267e400fdd3d479a6c68079ac6db01d8ca4f67572083e722775a796788a7a9956613749e000fac20d424b594f7a791a5f4e2e13581c5ef947f26968a40"
+	"packageManager": "pnpm@11.5.2+sha512.71c631e382066efc25625d5cf029075de07b61b37f6e27350fbd84b1bda5864c8c1967adc280776b45c30a715c0359a3be08fef42d5bb09e2b99029979692916"
 }

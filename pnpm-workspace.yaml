@@ -1,0 +1,3 @@
+autoInstallPeers: true
+allowBuilds:
+  lefthook: true
