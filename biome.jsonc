@@ -52,6 +52,7 @@
 		"rules": {
 			"recommended": true,
 			"style": {
+				"noEnum": "error",
 				"noInferrableTypes": "error",
 				"noParameterAssign": "error",
 				"noUnusedTemplateLiteral": "error",
