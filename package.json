@@ -11,11 +11,15 @@
 	"type": "module",
 	"exports": {
 		"./biome": "./biome.jsonc",
+		"./oxfmt": "./oxfmt.config.ts",
+		"./oxlint": "./oxlint.config.ts",
 		"./tsc": "./tsconfig.json",
 		"./tsconfig": "./tsconfig.json"
 	},
 	"files": [
 		"biome.jsonc",
+		"oxfmt.config.ts",
+		"oxlint.config.ts",
 		"tsconfig.json"
 	],
 	"scripts": {
@@ -26,16 +30,18 @@
 		"test": "exit 0"
 	},
 	"dependencies": {
-		"@biomejs/biome": "^2.5.0",
+		"@biomejs/biome": "^2.5.6",
 		"@e18e/cli": "^0.7.0",
 		"@total-typescript/tsconfig": "^1.0.4",
-		"lefthook": "^2.1.9"
+		"lefthook": "^2.1.10",
+		"oxfmt": "^0.61.0",
+		"oxlint": "^1.76.0"
 	},
 	"devDependencies": {
-		"@commitlint/cli": "^21.0.2",
-		"@commitlint/config-conventional": "^21.0.2",
-		"concurrently": "^10.0.3",
-		"np": "^11.2.1"
+		"@commitlint/cli": "^21.2.1",
+		"@commitlint/config-conventional": "^21.2.0",
+		"concurrently": "^10.0.4",
+		"np": "^12.0.0"
 	},
 	"packageManager": "pnpm@11.8.0+sha512.c1f5e7c4cb241c8f174b743851d82f42b802324afc8b0f116b96adb15aa06664948dde36960a3ba1079ba5b4b29dd0140135b94b5b5f5263592249d68e555f26"
 }

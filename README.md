@@ -50,6 +50,18 @@ nix flake init --template "github:idleberg/configs"
 
 To launch the development shell, run `nix develop`.
 
+### oxfmt
+
+```ts
+export config from '@idleberg/config/oxfmt'
+```
+
+### oxlint
+
+```ts
+export config from '@idleberg/config/oxlint'
+```
+
 ### tsc
 
 ```json
