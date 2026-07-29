@@ -56,11 +56,15 @@ To launch the development shell, run `nix develop`.
 export config from '@idleberg/config/oxfmt'
 ```
 
+Requires `public-hoist-pattern[]=*oxfmt*` in your `.npmrc` file.
+
 ### oxlint
 
 ```ts
 export config from '@idleberg/config/oxlint'
 ```
+
+Requires `public-hoist-pattern[]=*oxlint*` in your `.npmrc` file.
 
 ### tsc
 
